@@ -161,7 +161,7 @@
                     <custom-exclude filter-type="EQUALS" filter-value="org.jboss.resource.adapter.jms.JmsMessageConsumer"/>
                     <custom-exclude filter-type="EQUALS" filter-value="com.ibm.ejs.jms.JMSMessageConsumerHandle"/>
                     <custom-exclude filter-type="EQUALS" filter-value="io/netty/util/concurrent/DefaultThreadFactory$DefaultRunnableDecorator"/>
-                    <custom-exclude filter-type="STARTSWITH" filter-value="io/netty/util/concurrent/SingleThreadEventExecutor"/>
+                    <!--- <custom-exclude filter-type="STARTSWITH" filter-value="io/netty/util/concurrent/SingleThreadEventExecutor"/> -->
                     <custom-exclude filter-type="STARTSWITH" filter-value="io/reactivex/netty/client/ConnectionPoolImpl"/>
                     <!--- to disable lambda classes instrumentation, use the following line
                         <custom-exclude filter-type="CONTAINS" filter-value="$$Lambda$"/>
